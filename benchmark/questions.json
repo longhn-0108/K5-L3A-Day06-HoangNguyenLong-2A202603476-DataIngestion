@@ -1,0 +1,223 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Nghị định 168/2024/NĐ-CP được Chính phủ ban hành vào ngày tháng năm nào?",
+    "expected_answer": "Ngày 26 tháng 12 năm 2024.",
+    "gold_source_id": "nd-168-2024",
+    "gold_page": 1,
+    "evidence_quote": "Số: 168/2024/NĐ-CP Hà Nội, ngày 26 tháng 12 năm 2024",
+    "filter": null
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Ba hình thức xử phạt chính đối với vi phạm hành chính về trật tự, an toàn giao thông đường bộ là gì?",
+    "expected_answer": "Cảnh cáo, phạt tiền, và tịch thu phương tiện được sử dụng để vi phạm hành chính.",
+    "gold_source_id": "nd-168-2024",
+    "gold_page": 3,
+    "evidence_quote": "a) Cảnh cáo; b) Phạt tiền; c) Tịch thu phương tiện được sử dụng để vi phạm hành chính.",
+    "filter": null
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "type": "dieu_kien_ngoai_le",
+    "question": "Trong thời gian bị tước quyền sử dụng giấy phép lái xe, người vi phạm có được làm thủ tục cấp mới hoặc đổi giấy phép không?",
+    "expected_answer": "Không được làm thủ tục cấp mới, đổi, cấp lại giấy phép, trừ trường hợp quy định tại khoản 6 Điều 5.",
+    "gold_source_id": "nd-168-2024",
+    "gold_page": 7,
+    "evidence_quote": "Trong thời gian bị tước quyền sử dụng giấy phép, chứng chỉ hành nghề, cá nhân, tổ chức không được làm thủ tục cấp mới, đổi, cấp lại giấy phép, chứng chỉ hành nghề, trừ trường hợp quy định tại khoản 6 Điều này.",
+    "filter": null
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "type": "dieu_kien_ngoai_le",
+    "question": "Người lái xe ô tô sử dụng còi trong khu đông dân cư vào khung giờ nào thì bị xử phạt (trừ xe ưu tiên đang làm nhiệm vụ)?",
+    "expected_answer": "Từ 22 giờ ngày hôm trước đến 05 giờ ngày hôm sau.",
+    "gold_source_id": "nd-168-2024",
+    "gold_page": 8,
+    "evidence_quote": "Sử dụng còi trong thời gian từ 22 giờ ngày hôm trước đến 05 giờ ngày hôm sau trong khu đông dân cư, khu vực cơ sở khám bệnh, chữa bệnh, trừ các xe ưu tiên đang đi làm nhiệm vụ theo quy định.",
+    "filter": null
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Người điều khiển xe ô tô chạy quá tốc độ quy định từ 05 km/h đến dưới 10 km/h bị phạt tiền bao nhiêu?",
+    "expected_answer": "Phạt tiền từ 800.000 đồng đến 1.000.000 đồng.",
+    "gold_source_id": "nd-168-2024",
+    "gold_page": 9,
+    "evidence_quote": "Phạt tiền từ 800.000 đồng đến 1.000.000 đồng đối với người điều khiển xe thực hiện một trong các hành vi vi phạm sau đây: a) Điều khiển xe chạy quá tốc độ quy định từ 05 km/h đến dưới 10 km/h;",
+    "filter": null
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "type": "dieu_kien_ngoai_le",
+    "question": "Trẻ em dưới bao nhiêu tuổi và chiều cao dưới bao nhiêu mét không được ngồi cùng hàng ghế với người lái xe ô tô (trừ xe chỉ có một hàng ghế)?",
+    "expected_answer": "Dưới 10 tuổi và chiều cao dưới 1,35 mét.",
+    "gold_source_id": "nd-168-2024",
+    "gold_page": 10,
+    "evidence_quote": "Chở trẻ em dưới 10 tuổi và chiều cao dưới 1,35 mét trên xe ô tô ngồi cùng hàng ghế với người lái xe (trừ loại xe ô tô chỉ có một hàng ghế) hoặc không sử dụng thiết bị an toàn phù hợp cho trẻ em theo quy định;",
+    "filter": null
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "type": "dien_dat_lai",
+    "question": "Người điều khiển xe mô tô, xe gắn máy có được phép sử dụng thiết bị trợ thính khi đang lái xe không?",
+    "expected_answer": "Được phép, vì thiết bị trợ thính được loại trừ khỏi hành vi cấm sử dụng thiết bị âm thanh.",
+    "gold_source_id": "nd-168-2024",
+    "gold_page": 18,
+    "evidence_quote": "Người đang điều khiển xe sử dụng ô (dù), thiết bị âm thanh (trừ thiết bị trợ thính), dùng tay cầm và sử dụng điện thoại hoặc các thiết bị điện tử khác.",
+    "filter": null
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "type": "dieu_kien_ngoai_le",
+    "question": "Những trường hợp nào người ngồi trên xe đạp máy không đội mũ bảo hiểm không bị xử phạt?",
+    "expected_answer": "Trường hợp chở người bệnh đi cấp cứu, trẻ em dưới 06 tuổi, áp giải người có hành vi vi phạm pháp luật.",
+    "gold_source_id": "nd-168-2024",
+    "gold_page": 28,
+    "evidence_quote": "trừ trường hợp chở người bệnh đi cấp cứu, trẻ em dưới 06 tuổi, áp giải người có hành vi vi phạm pháp luật.",
+    "filter": null
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Người đi bộ không đi đúng phần đường quy định hoặc vượt qua dải phân cách bị phạt tiền bao nhiêu?",
+    "expected_answer": "Phạt tiền từ 150.000 đồng đến 250.000 đồng.",
+    "gold_source_id": "nd-168-2024",
+    "gold_page": 28,
+    "evidence_quote": "Phạt tiền từ 150.000 đồng đến 250.000 đồng đối với người đi bộ thực hiện một trong các hành vi vi phạm sau đây: a) Không đi đúng phần đường quy định; vượt qua dải phân cách;",
+    "filter": null
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Người điều khiển xe ô tô không có kính chắn gió hoặc kính chắn gió bị vỡ không có tác dụng bị phạt tiền mức nào?",
+    "expected_answer": "Phạt tiền từ 200.000 đồng đến 400.000 đồng.",
+    "gold_source_id": "nd-168-2024",
+    "gold_page": 32,
+    "evidence_quote": "Phạt tiền từ 200.000 đồng đến 400.000 đồng đối với hành vi điều khiển xe không có kính chắn gió hoặc có nhưng vỡ không có tác dụng (đối với xe có thiết kế lắp kính chắn gió).",
+    "filter": null
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Người từ đủ 14 tuổi đến dưới 16 tuổi điều khiển xe mô tô, xe gắn máy hoặc xe ô tô bị xử phạt hình thức gì?",
+    "expected_answer": "Phạt cảnh cáo.",
+    "gold_source_id": "nd-168-2024",
+    "gold_page": 41,
+    "evidence_quote": "Phạt cảnh cáo người từ đủ 14 tuổi đến dưới 16 tuổi điều khiển xe mô tô, xe gắn máy, các loại xe tương tự xe mô tô và các loại xe tương tự xe gắn máy hoặc điều khiển xe ô tô",
+    "filter": null
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "type": "metadata_filter",
+    "question": "Trong Chương II, người điều khiển xe ô tô cứu thương không lắp thiết bị giám sát hành trình bị phạt tiền bao nhiêu và bị trừ mấy điểm giấy phép lái xe?",
+    "expected_answer": "Phạt tiền từ 3.000.000 đồng đến 5.000.000 đồng và bị trừ 02 điểm giấy phép lái xe.",
+    "gold_source_id": "nd-168-2024",
+    "gold_page": 60,
+    "evidence_quote": "Phạt tiền từ 3.000.000 đồng đến 5.000.000 đồng đối với hành vi vi phạm điều khiển xe ô tô cứu thương không lắp thiết bị giám sát hành trình",
+    "filter": {"chapter": "Chương II"}
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "type": "metadata_filter",
+    "question": "Theo Chương III, công chức thuộc Thanh tra Sở Giao thông vận tải đang thi hành công vụ có thẩm quyền lập biên bản trong phạm vi nào?",
+    "expected_answer": "Trong phạm vi địa bàn quản lý của Thanh tra Sở Giao thông vận tải.",
+    "gold_source_id": "nd-168-2024",
+    "gold_page": 89,
+    "evidence_quote": "Công chức thuộc Thanh tra Sở Giao thông vận tải đang thi hành công vụ, nhiệm vụ có thẩm quyền lập biên bản đối với các hành vi vi phạm xảy ra trong phạm vi địa bàn quản lý của Thanh tra Sở Giao thông vận tải.",
+    "filter": {"chapter": "Chương III"}
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "type": "metadata_filter",
+    "question": "Theo Chương III, nếu một người thực hiện nhiều hành vi vi phạm bị trừ điểm giấy phép lái xe trong cùng một lần xử phạt thì trừ điểm như thế nào?",
+    "expected_answer": "Chỉ áp dụng trừ điểm đối với hành vi vi phạm bị trừ nhiều điểm nhất.",
+    "gold_source_id": "nd-168-2024",
+    "gold_page": 98,
+    "evidence_quote": "nếu có từ 02 hành vi vi phạm trở lên theo quy định bị trừ điểm giấy phép lái xe thì chỉ áp dụng trừ điểm đối với hành vi vi phạm bị trừ nhiều điểm nhất;",
+    "filter": {"chapter": "Chương III"}
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Nghị định 168/2024/NĐ-CP có hiệu lực thi hành từ ngày nào?",
+    "expected_answer": "Từ ngày 01 tháng 01 năm 2025 (trừ một số quy định tại khoản 2 Điều 53).",
+    "gold_source_id": "nd-168-2024",
+    "gold_page": 104,
+    "evidence_quote": "Nghị định này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2025, trừ quy định tại khoản 2 Điều này.",
+    "filter": null
+  },
+  {
+    "id": "q16",
+    "split": "test",
+    "type": "dieu_kien_ngoai_le",
+    "question": "Người điều khiển xe đạp hoặc xe thô sơ đi vào đường cao tốc bị phạt tiền bao nhiêu (trừ phương tiện phục vụ quản lý, bảo trì)?",
+    "expected_answer": "Phạt tiền từ 800.000 đồng đến 1.200.000 đồng.",
+    "gold_source_id": "nd-168-2024",
+    "gold_page": 28,
+    "evidence_quote": "Phạt tiền từ 800.000 đồng đến 1.200.000 đồng đối với người điều khiển xe đi vào đường cao tốc, trừ phương tiện phục vụ việc quản lý, bảo trì đường cao tốc.",
+    "filter": null
+  },
+  {
+    "id": "q17",
+    "split": "test",
+    "type": "dieu_kien_ngoai_le",
+    "question": "Hành vi đổ trái phép rác, đất, cát, đá ra đường phố bị phạt tiền bao nhiêu và có bị trừ điểm giấy phép lái xe không?",
+    "expected_answer": "Phạt tiền từ 10.000.000 đồng đến 15.000.000 đồng; nếu điều khiển xe ô tô còn bị trừ 02 điểm giấy phép lái xe.",
+    "gold_source_id": "nd-168-2024",
+    "gold_page": 41,
+    "evidence_quote": "Phạt tiền từ 10.000.000 đồng đến 15.000.000 đồng đối với người điều khiển xe thực hiện hành vi đổ trái phép rác, đất, cát, đá, vật liệu, chất phế thải ra đường phố.",
+    "filter": null
+  },
+  {
+    "id": "q18",
+    "split": "test",
+    "type": "truc_tiep",
+    "question": "Điều khiển xe vượt quá tải trọng cho phép của đường bộ trên 50% (không có giấy phép lưu hành còn giá trị sử dụng) bị phạt tiền bao nhiêu?",
+    "expected_answer": "Phạt tiền từ 40.000.000 đồng đến 50.000.000 đồng.",
+    "gold_source_id": "nd-168-2024",
+    "gold_page": 73,
+    "evidence_quote": "Phạt tiền từ 40.000.000 đồng đến 50.000.000 đồng đối với một trong các hành vi vi phạm sau đây: a) Điều khiển xe mà tổng trọng lượng",
+    "filter": null
+  },
+  {
+    "id": "q19",
+    "split": "test",
+    "type": "metadata_filter",
+    "question": "Theo Chương III, việc thông báo trừ điểm giấy phép lái xe cho người vi phạm được thực hiện qua những phương thức nào?",
+    "expected_answer": "Bằng văn bản giao trực tiếp, gửi qua dịch vụ bưu chính, hoặc thông báo điện tử qua Cổng dịch vụ công, Ứng dụng giao thông trên thiết bị di động.",
+    "gold_source_id": "nd-168-2024",
+    "gold_page": 99,
+    "evidence_quote": "Việc thông báo trừ điểm giấy phép lái xe thực hiện bằng văn bản theo mẫu quy định của Bộ trưởng Bộ Công an và được giao trực tiếp hoặc gửi qua dịch vụ bưu chính hoặc thực hiện thông báo bằng phương thức điện tử",
+    "filter": {"chapter": "Chương III"}
+  },
+  {
+    "id": "q20",
+    "split": "test",
+    "type": "dien_dat_lai",
+    "question": "Quy định về xử phạt trẻ em dưới 10 tuổi ngồi cùng hàng ghế với người lái xe ô tô (điểm m khoản 3 Điều 6) có hiệu lực từ ngày nào?",
+    "expected_answer": "Từ ngày 01 tháng 01 năm 2026.",
+    "gold_source_id": "nd-168-2024",
+    "gold_page": 104,
+    "evidence_quote": "Quy định tại điểm m khoản 3 Điều 6, điểm e khoản 4 Điều 26, điểm b khoản 1 Điều 27 của Nghị định này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2026",
+    "filter": null
+  }
+]
+

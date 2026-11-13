@@ -1,0 +1,20 @@
+{
+  "annotator": "Hoàng Nguyễn Long (2A202603476) - tự chấm thủ công (có nguy cơ thiên lệch tác giả)",
+  "coherence_sample_pages": [1, 2, 3, 6, 7, 8, 9, 10, 15, 18],
+  "coherence_scores": {
+    "A": {"scores": [1, 1, 0, 1, 0, 1, 0, 1, 0, 1], "mean": 0.6, "note": "Cắt cố định 500 ký tự nên hầu hết bị cắt ngang từ hoặc giữa câu."},
+    "B": {"scores": [2, 2, 1, 2, 2, 2, 1, 1, 1, 2], "mean": 1.6, "note": "Giữ trọn vẹn từng khoản/điểm; một số trang chuyển tiếp thiếu tiêu đề Điều ở trang trước."},
+    "C": {"scores": [2, 2, 1, 2, 2, 2, 1, 1, 1, 2], "mean": 1.6, "note": "Giống chiến lược B về chunking."}
+  },
+  "metadata_audit_test_top3": {
+    "A": {"valid_records": 15, "total_records": 15, "filter_compliance": "N/A"},
+    "B": {"valid_records": 15, "total_records": 15, "filter_compliance": "N/A"},
+    "C": {"valid_records": 15, "total_records": 15, "filter_compliance": "1/1 (test), 3/3 (dev)"}
+  },
+  "grounding_test_questions": {
+    "A": {"q16": 2, "q17": 2, "q18": 0, "q19": 0, "q20": 0, "counts": {"0": 3, "1": 0, "2": 2}, "mean": 0.8},
+    "B": {"q16": 0, "q17": 2, "q18": 1, "q19": 1, "q20": 0, "counts": {"0": 2, "1": 2, "2": 1}, "mean": 0.8},
+    "C": {"q16": 0, "q17": 2, "q18": 1, "q19": 1, "q20": 0, "counts": {"0": 2, "1": 2, "2": 1}, "mean": 0.8}
+  }
+}
+

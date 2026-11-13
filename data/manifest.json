@@ -1,0 +1,19 @@
+{
+  "corpus_name": "Nghị định 168/2024/NĐ-CP về xử phạt vi phạm hành chính trật tự, an toàn giao thông đường bộ",
+  "documents": [
+    {
+      "source_id": "nd-168-2024",
+      "title": "Nghị định số 168/2024/NĐ-CP ngày 26/12/2024 của Chính phủ quy định xử phạt vi phạm hành chính về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ; trừ điểm, phục hồi điểm giấy phép lái xe",
+      "source_path_or_url": "starter/data/nd_168_2024.pdf (chuyển đổi từ 168_2024_ND-CP_619502 (2).doc)",
+      "license_or_permission": "Văn bản quy phạm pháp luật công khai của Chính phủ Việt Nam (không thuộc bí mật nhà nước, được phép sử dụng và trích dẫn công khai theo Luật Phổ biến, giáo dục pháp luật).",
+      "accessed_at": "2026-11-13",
+      "version": "168/2024/NĐ-CP (26/12/2024)",
+      "physical_pages": 105,
+      "valid_content_pages": 105,
+      "page_range": "1-105",
+      "page_counting_rule": "Đếm toàn bộ các trang PDF có nội dung văn bản quy phạm pháp luật (tất cả 105 trang đều chứa nội dung quy định từ Chương I đến Chương IV, không có trang bìa, mục lục hay trang trống).",
+      "total_normalized_chars": 258568
+    }
+  ]
+}
+

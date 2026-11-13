@@ -1,4 +1,4 @@
 strategy,chunking,chunk_size,overlap,metadata,filter,vectorizer,hypothesis,dev_hit1,dev_hit3,test_hit1,test_hit3,notes
-A,,,,,,,,,,,,
-B,,,,,,,,,,,,
-C,,,,,,,,,,,,
+A,fixed_size,500,50,"document_id,source,page,chapter,section",none,sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2,"Baseline cố định dễ cắt ngang câu/khoản luật",4/15 (26.67%),7/15 (46.67%),2/5 (40.00%),2/5 (40.00%),"607 chunks; 24.34s ingest; coherence 0.6/2"
+B,by_paragraph,700,80,"document_id,source,page,chapter,section",none,sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2,"Chia theo đoạn/khoản giữ trọn ý sẽ tăng coherence và Hit@1 trên dev",5/15 (33.33%),7/15 (46.67%),1/5 (20.00%),1/5 (20.00%),"495 chunks; 19.60s ingest; coherence 1.6/2"
+C,by_paragraph,700,80,"document_id,source,page,chapter,section",chapter (when provided),sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2,"Lọc theo chapter trên cùng chunk của B giúp loại nhiễu giữa Chương II và Chương III",5/15 (33.33%),8/15 (53.33%),1/5 (20.00%),1/5 (20.00%),"495 chunks; 19.60s ingest; filter compliance 4/4 (100%)"
